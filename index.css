@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  width: 100%;
+}
+.navbar li {
+  float: left;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 10px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.container > .navbar > * {
+  flex-basis: 30px;
+}
+
+.navbar li a {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #111;
+  flex-wrap: wrap;
+}
+.navbar li a:hover {
+  background-color: rgb(234, 206, 206);
+}
+.logo {
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Home {
+  width: 100%;
+
+  background-color: antiquewhite;
+}
+.profile {
+  text-align: center;
+  /* Ensures the container is left-aligned */
+}
+.profile img {
+  border-radius: 100%;
+  padding: 0px;
+
+  float: left;
+
+  height: 300px;
+  width: 300px;
+}
+.caption {
+  font-size: larger;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+.About {
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+}
+.Education {
+  width: 100%;
+}
+.Internships tr {
+  width: 100%;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Skills2 li {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 0px;
+  background-color: aqua;
+  flex-direction: row;
+}
+
+.Projects {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+.Projects li {
+  padding: 5px;
+  justify-content: center;
+}
